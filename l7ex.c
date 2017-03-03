@@ -58,12 +58,13 @@ void compareStrings(){
 
 int main(int argc, char *argv[]){
 	int es;
+	printf("\nChoose the example to execute:\n\n"
+		"\t1\tEs 1:\tPostfix and prefix operators;\n"
+		"\t2\tEs 2:\tRead a string;\n"
+		"\t3\tEs 3:\tCompare two strings;\n\t"
+		"\tother\t:\tExit\n");
+	scanf("%d", &es);
 	do{
-		printf("\nChoose the example to execute:\n\n\t1\tEs 1:\tPostfix and "
-			"prefix operators;\n\t2\tEs 2:\tRead a string;\n\t"
-			"3\tEs 3:\tCompare two strings;\n\t"
-			"other \t:\tExit\n");
-		scanf("%d/n", &es);
 		if(es == 1)
 			prePostfix();
 		else if(es == 2)

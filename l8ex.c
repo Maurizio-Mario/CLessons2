@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #define DIM 10
 
-/*int gcd2(int a, int b){
+int gcd2(int a, int b){
     	int temp;
     	while (b != 0){
         	temp = a % b;
@@ -24,7 +24,7 @@ void gdc3(){
 		printf("The gcd of %d, %d and %d is %d.\n",a, b, c, m2);
 	}
 }
-*/
+
 void isPrime(){
 	int x = 0;
 	int i;
@@ -96,9 +96,9 @@ int main(int argc, char *argv[]){
 		"\t*\tOther :\t Exit.\n");
 	scanf("%d", &es);
 	do{
-/*		if(es == 1)
-			gdc3();*/
-		/*else*/ if (es == 2)
+		if(es == 1)
+			gdc3();
+		else if (es == 2)
 			isPrime();
 		else if(es == 3)
 			nextPrime();

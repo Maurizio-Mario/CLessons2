@@ -89,7 +89,7 @@ void hundredPrimes(){
 
 
 
-int main(int argc, char *argv[]){
+int main(int argc, *char argv[]){
 	int es;
 	do{
 		printf("\n\nExamples from lesson 8. Please choose one:\n\n"
